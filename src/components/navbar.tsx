@@ -41,7 +41,7 @@ const Navbar = () => {
             <IoSearchOutline className="text-[20px]" />
           </div>
           <div className="h-[48px] w-[150px] bg-[#1E8A8A] rounded-3xl group flex items-center justify-center gap-3 py-[5px] pl-[25px] pr-[5px] cursor-pointer  transition-all duration-300">
-            <h3 className="text-[16px] font-semibold text-white">Let's Talk</h3>
+            <h3 className="text-[16px] font-semibold text-white">{"Let's Talk"}</h3>
             <div className="h-[38px] w-[38px] flex items-center justify-center rounded-full bg-black  transition-all duration-300">
               <IoMdArrowRoundForward className="text-white  text-[20px] -rotate-30 group-hover:rotate-0 transition-transform duration-300" />
             </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
             </div>
             <div className="h-[48px] w-full bg-[#1E8A8A] rounded-3xl flex items-center justify-center gap-3 py-[5px] px-[20px] cursor-pointer hover:bg-[#156d6d] transition-all duration-300">
               <h3 className="text-[16px] font-semibold text-white">
-                Let's Talk
+               {" Let's Talk"}
               </h3>
               <div className="h-[38px] w-[38px] flex items-center justify-center rounded-full bg-black">
                 <IoMdArrowRoundForward className="text-white text-[20px]" />
